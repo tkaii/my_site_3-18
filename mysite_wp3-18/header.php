@@ -9,8 +9,8 @@
 </head>
 <body>
   <header>
-    <h1 class="logo">
-      <a href="index.html">Wordpress & webdesign</a>
+        <h1 class="logo">
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Wordpress & webdesign</a>
     </h1>
 <!-- header-nav -->
 <nav class="header-nav">
