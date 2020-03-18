@@ -9,10 +9,8 @@
       <form class="signup-form" action="">
         <label class="form__label" for="name">お名前</label>
         <input type="email" id="name" name="name">
-
         <label class="form__label" for="email">メールアドレス</label>
         <input  type="email" id="email" name="email">
-
         <label class="form__label" for="massage">メッセージ</label>
         <textarea name="massage" id="massage"></textarea>
         <a href="#" class="btn btn-pink submit">送信</a>
