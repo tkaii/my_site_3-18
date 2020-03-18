@@ -6,17 +6,17 @@
       <p class="form-title-text">下記のフォームよりお気軽にご連絡ください。お待ちしております。</p>
     </section>
     <section class="signup-form">
-        <form class="signup-form" action="">
-          <label class="form__label" for="name">お名前</label>
-          <input type="email" id="name" name="name">
+      <form class="signup-form" action="">
+        <label class="form__label" for="name">お名前</label>
+        <input type="email" id="name" name="name">
 
-          <label class="form__label" for="email">メールアドレス</label>
-          <input  type="email" id="email" name="email">
+        <label class="form__label" for="email">メールアドレス</label>
+        <input  type="email" id="email" name="email">
 
-          <label class="form__label" for="massage">メッセージ</label>
-          <textarea name="massage" id="massage"></textarea>
-          <a href="#" class="btn btn-pink submit">送信</a>
-        </form>
+        <label class="form__label" for="massage">メッセージ</label>
+        <textarea name="massage" id="massage"></textarea>
+        <a href="#" class="btn btn-pink submit">送信</a>
+      </form>
     </section>
   </main>
 <?php get_footer(); ?>
