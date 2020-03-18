@@ -7,7 +7,7 @@ the_post(); ?>
 <div class="blog-content">
 <div class="blog-content__tag">
 <?php the_tags('<ul><li>','</li><li>','</li></ul>'); ?></div><!--blog-content__tag-->
-<h3 class="blog-content__title"><?php the_title(); ?></h3>
+<a href="<?php the_permalink(); ?>" class="blog-content__title"><?php the_title(); ?></a>
 <div  class="blog-content__date">
 <time class="" datetime="<?php the_time('c'); ?>"><?php the_time('Y年n月j日'); ?></time>
 <?php if ( get_the_modified_time( 'Y-m-d' ) !== get_the_time( 'Y-m-d' ) ) : ?><br>
